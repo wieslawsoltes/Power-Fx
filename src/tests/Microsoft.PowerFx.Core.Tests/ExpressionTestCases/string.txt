@@ -284,3 +284,9 @@ true
 
 >> $"Hello {"World!"}"
 "Hello World!"
+
+>> $"Hello {"World!"} 2"
+"Hello World! 2"
+
+>> $"One {$"Two {"Three"}"} Four"
+"One Two Three Four"
