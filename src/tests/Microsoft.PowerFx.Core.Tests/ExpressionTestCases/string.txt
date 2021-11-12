@@ -281,3 +281,6 @@ true
 
 >> Concatenate(Text(1/0, "#.000"), "b", Text(7))
 #Error
+
+>> $"Hello {"World!"}"
+"Hello World!"
